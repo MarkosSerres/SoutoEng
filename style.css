@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #151315;
+    color: white;
+}
+
+.main__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 500px;
+}
+
+.main__texto__titulo{
+    font-family: FonteTitulo;
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    margin-top: -400px;
+}
+
+.main__texto__conteudo{
+    font-family: FonteTexto;
+    font-size: 1rem;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.main__texto__conteudo__forte{
+    font-size: 1.3rem;
+}
