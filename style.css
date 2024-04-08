@@ -16,6 +16,10 @@ body{
     color: white;
 }
 
+.main{
+    margin-top: -80px;
+}
+
 .main__texto{
     display: flex;
     flex-direction: column;
@@ -73,6 +77,9 @@ body{
 }
 
 @media (max-width:1001px){
+    .main{
+        margin-top: 80px;
+    }
     .main__texto{
         padding-left: 20%;
         padding-right: 20%;
@@ -84,22 +91,49 @@ body{
     .main__texto{
         padding-left: 20%;
         padding-right: 20%;
+        margin-top: 60%;
+    }
+}
+
+@media (max-width:674px){
+    .main__texto{
+        padding-left: 20%;
+        padding-right: 20%;
         margin-top: 70%;
     }
 }
 
-@media (max-width:588px){
+@media (max-width:568px){
     .main__texto{
         padding-left: 20%;
         padding-right: 20%;
-        margin-top: 90%;
+        margin-top: 80%;
     }
 }
 
-@media (max-width:463px){
+@media (max-width:500px){
     .main__texto{
         padding-left: 20%;
         padding-right: 20%;
-        margin-top: 110%;
+        margin-top: 100%;
+    }
+}
+
+@media (max-width:396px){
+    .main__texto{
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 120%;
+    }
+    .main__texto__conteudo{
+        width: auto;
+    }
+}
+
+@media (max-width:331px){
+    .main__texto{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 140%;
     }
 }
